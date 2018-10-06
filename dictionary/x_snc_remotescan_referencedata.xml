@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="referenceData" max_length="40" name="x_snc_remotescan_referencedata" type="collection">
-        <element display="true" label="ScanType" max_length="50" name="scantype" type="string"/>
+        <element default="False" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="ScanType" max_length="50" name="scantype" type="string"/>
         <element label="TargetInstance" max_length="50" name="targetinstance" type="string"/>
-        <element label="Token" max_length="50" name="token" type="string"/>
+        <element display="true" label="Token" max_length="50" name="token" type="string"/>
     </element>
 </database>
