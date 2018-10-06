@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-06 01:39:58</sys_created_on>
         <sys_id>a51a0068dbc12f00fd672649489619d7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_package display_value="RemoteScan" source="x_snc_remotescan">78a58464dbc12f00fd672649489619b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="RemoteScan">78a58464dbc12f00fd672649489619b6</sys_scope>
         <sys_update_name>sys_hub_action_instance_a51a0068dbc12f00fd672649489619d7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-06 01:41:52</sys_updated_on>
+        <sys_updated_on>2018-10-06 02:16:38</sys_updated_on>
         <ui_id>93daf2cf-faae-47b2-bc03-e9e232e8d4a8</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a51a0068dbc12f00fd672649489619d7"/>
@@ -32,10 +32,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-06 01:39:58</sys_created_on>
         <sys_id>a51a0068dbc12f00fd672649489619dc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-06 01:39:58</sys_updated_on>
+        <sys_updated_on>2018-10-06 02:16:38</sys_updated_on>
         <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
-        <value>Remote Scan - Trigger Scan - executed by SchedTriggerScan using: ScanToken: {{Daily_1.run_start_time}}</value>
+        <value>Remote Scan - Trigger Scan - executed by {{Daily_1.run_start_time}}.   Status Code: {{de5f8451-53e2-4d59-b9f2-894c8985bc70.statuscode}} Error Code: {{de5f8451-53e2-4d59-b9f2-894c8985bc70.errorcode}}, Error Message:  {{de5f8451-53e2-4d59-b9f2-894c8985bc70.errormessage}}l</value>
     </sys_element_mapping>
 </record_update>

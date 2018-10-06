@@ -8,7 +8,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>schedtriggerscan</internal_name>
-        <label_cache>[{"name":"Daily_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"}]</label_cache>
+        <label_cache>[{"name":"Daily_1.run_start_time","label":"Trigger➛Run Start Time","type":"glide_date_time","base_type":"glide_date_time"},{"name":"de5f8451-53e2-4d59-b9f2-894c8985bc70.statuscode","label":"1➛statusCode","reference_display":"statusCode","type":"string","base_type":"string"},{"name":"de5f8451-53e2-4d59-b9f2-894c8985bc70.errorcode","label":"1➛errorCode","reference_display":"errorCode","type":"string","base_type":"string"},{"name":"de5f8451-53e2-4d59-b9f2-894c8985bc70.errormessage","label":"1➛errorMessage","type":"string","base_type":"string"},{"name":"de5f8451-53e2-4d59-b9f2-894c8985bc70.responsebody","label":"1➛responseBody","reference_display":"responseBody","type":"string","base_type":"string"},{"name":"51c79712-35c0-47b9-9a25-ef24005afd52.email","label":"3.2➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference"}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>SchedTriggerScan</name>
@@ -22,14 +22,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-06 01:31:48</sys_created_on>
         <sys_id>b5380028dbc12f00fd6726494896192c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>SchedTriggerScan</sys_name>
         <sys_package display_value="RemoteScan" source="x_snc_remotescan">78a58464dbc12f00fd672649489619b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="RemoteScan">78a58464dbc12f00fd672649489619b6</sys_scope>
         <sys_update_name>sys_hub_flow_b5380028dbc12f00fd6726494896192c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-06 01:39:58</sys_updated_on>
+        <sys_updated_on>2018-10-06 02:16:38</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_variable_value action="delete_multiple" query="document_key=b5380028dbc12f00fd6726494896192c"/>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="SchedTriggerScan">b5380028dbc12f00fd6726494896192c</flow>
+        <order>3.2</order>
+        <parent_ui_id>c3b14073-aaf9-4ed2-b6fc-717bb0733e3b</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-06 02:16:38</sys_created_on>
+        <sys_id>aa7290acdbc12f00fd6726494896190c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RemoteScan" source="x_snc_remotescan">78a58464dbc12f00fd672649489619b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RemoteScan">78a58464dbc12f00fd672649489619b6</sys_scope>
+        <sys_update_name>sys_hub_action_instance_aa7290acdbc12f00fd6726494896190c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-06 02:16:38</sys_updated_on>
+        <ui_id>51c79712-35c0-47b9-9a25-ef24005afd52</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=aa7290acdbc12f00fd6726494896190c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aa7290acdbc12f00fd6726494896190c</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-06 02:16:38</sys_created_on>
+        <sys_id>667290acdbc12f00fd67264948961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-06 02:16:38</sys_updated_on>
+        <value/>
+        <variable display_value="">c71241160b100300d97d8bf637673a55</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>aa7290acdbc12f00fd6726494896190c</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-06 02:16:38</sys_created_on>
+        <sys_id>a27290acdbc12f00fd67264948961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-06 02:16:38</sys_updated_on>
+        <value>peter.zecchin@servicenow.com</value>
+        <variable display_value="">f61205d20b100300d97d8bf637673ac2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=aa7290acdbc12f00fd6726494896190c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>aa7290acdbc12f00fd6726494896190c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-06 02:16:38</sys_created_on>
+        <sys_id>227290acdbc12f00fd67264948961912</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-06 02:16:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>&lt;p&gt;You should probably do something about that...........&lt;/p&gt;
+&lt;p&gt;&lt;span class="data_parent_pill" style="display: inline;" contenteditable="false" data-pillid="8f8a224e-1b21-416e-ae77-e5ece6bface7" data-pillvalue="{{de5f8451-53e2-4d59-b9f2-894c8985bc70.responsebody}}"&gt;&lt;span class="data_pill " contenteditable="false" data-pillid="8f8a224e-1b21-416e-ae77-e5ece6bface7" data-pillvalue="{{de5f8451-53e2-4d59-b9f2-894c8985bc70.responsebody}}"&gt;1➛responseBody&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;&lt;/p&gt;</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>aa7290acdbc12f00fd6726494896190c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-06 02:16:38</sys_created_on>
+        <sys_id>6e7290acdbc12f00fd67264948961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-06 02:16:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>Scheduled Remote Scan Failed  {{de5f8451-53e2-4d59-b9f2-894c8985bc70.errormessage}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>aa7290acdbc12f00fd6726494896190c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-06 02:16:38</sys_created_on>
+        <sys_id>aa7290acdbc12f00fd67264948961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-06 02:16:38</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>
