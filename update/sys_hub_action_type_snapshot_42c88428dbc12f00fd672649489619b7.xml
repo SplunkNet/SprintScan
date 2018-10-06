@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <annotation>Trigger a Scan action step</annotation>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Triggers a scan via the restAPI using the Scan Token and Scan Type past into the action.   Returns the standard values.</description>
+        <internal_name>triggerscan</internal_name>
+        <label_cache>[{"name":"{{action.scantoken}}","label":"action➛scanToken","type":"action","ref":""},{"name":"{{action.scantype}}","label":"action➛scanType","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>TriggerScan</name>
+        <outputs/>
+        <parent_action display_value="TriggerScan">381688a4dbc12f00fd67264948961957</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-06 01:34:17</sys_created_on>
+        <sys_id>42c88428dbc12f00fd672649489619b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>TriggerScan</sys_name>
+        <sys_package display_value="RemoteScan" source="x_snc_remotescan">78a58464dbc12f00fd672649489619b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RemoteScan">78a58464dbc12f00fd672649489619b6</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_42c88428dbc12f00fd672649489619b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-06 01:34:17</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=42c88428dbc12f00fd672649489619b7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=42c88428dbc12f00fd672649489619b7"/>
+</record_update>

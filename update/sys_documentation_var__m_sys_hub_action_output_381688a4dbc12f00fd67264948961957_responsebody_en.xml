@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="responsebody" label="responseBody" language="en" table="var__m_sys_hub_action_output_381688a4dbc12f00fd67264948961957">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>responsebody</element>
+            <help/>
+            <hint/>
+            <label>responseBody</label>
+            <language>en</language>
+            <name>var__m_sys_hub_action_output_381688a4dbc12f00fd67264948961957</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-10-06 01:47:11</sys_created_on>
+            <sys_id>d3bb8c68dbc12f00fd6726494896193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>responseBody</sys_name>
+            <sys_package display_value="RemoteScan" source="x_snc_remotescan">78a58464dbc12f00fd672649489619b6</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="RemoteScan">78a58464dbc12f00fd672649489619b6</sys_scope>
+            <sys_update_name>sys_documentation_var__m_sys_hub_action_output_381688a4dbc12f00fd67264948961957_responsebody_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-10-06 01:47:11</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
