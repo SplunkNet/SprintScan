@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="SchedTriggerScan">b5380028dbc12f00fd6726494896192c</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-06 22:57:32</sys_created_on>
+        <sys_id>737e20f0db0d2f00fd6726494896192c</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="RemoteScan" source="x_snc_remotescan">78a58464dbc12f00fd672649489619b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RemoteScan">78a58464dbc12f00fd672649489619b6</sys_scope>
+        <sys_update_name>sys_hub_action_instance_737e20f0db0d2f00fd6726494896192c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-06 22:57:32</sys_updated_on>
+        <ui_id>d105028e-0f17-497c-9bb3-723c6994bddc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=737e20f0db0d2f00fd6726494896192c"/>
+    <sys_element_mapping action="delete_multiple" query="id=737e20f0db0d2f00fd6726494896192c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>log_message</field>
+        <id>737e20f0db0d2f00fd6726494896192c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-06 22:57:32</sys_created_on>
+        <sys_id>f37e20f0db0d2f00fd67264948961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-06 22:57:32</sys_updated_on>
+        <table>var__m_sys_hub_action_input_0e0ae8c2531003003bf1d9109ec587c8</table>
+        <value>This is what I looked up :    {{c6bbce5e-9c0f-4d2e-ad69-ad941c788c85.Records}}</value>
+    </sys_element_mapping>
+</record_update>

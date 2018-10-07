@@ -8,20 +8,20 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="SchedTriggerScan">b5380028dbc12f00fd6726494896192c</flow>
-        <order>3.1</order>
+        <order>4.1</order>
         <parent_ui_id>c3b14073-aaf9-4ed2-b6fc-717bb0733e3b</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-06 02:16:38</sys_created_on>
         <sys_id>267290acdbc12f00fd67264948961903</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name/>
         <sys_package display_value="RemoteScan" source="x_snc_remotescan">78a58464dbc12f00fd672649489619b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="RemoteScan">78a58464dbc12f00fd672649489619b6</sys_scope>
         <sys_update_name>sys_hub_action_instance_267290acdbc12f00fd67264948961903</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-06 22:50:37</sys_updated_on>
+        <sys_updated_on>2018-10-06 22:57:32</sys_updated_on>
         <ui_id>009c3e6c-2081-4d7a-895d-00ccac15b472</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=267290acdbc12f00fd67264948961903"/>
