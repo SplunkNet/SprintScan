@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="scan_history" max_length="40" name="x_snc_remotescan_scan_history" type="collection">
+        <element label="Error code" max_length="100" name="error_code" type="string"/>
+        <element label="Error message" max_length="100" name="error_message" type="string"/>
+        <element label="number" max_length="20" name="number" type="string"/>
+        <element label="Scan_ID" max_length="40" name="scan_id" type="string"/>
+        <element label="state" max_length="20" name="state" type="string"/>
+        <element label="Status code" max_length="100" name="status_code" type="string"/>
+        <element label="success" max_length="20" name="success" type="string"/>
+    </element>
+</database>

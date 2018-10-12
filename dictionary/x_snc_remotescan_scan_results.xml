@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="scan_results" max_length="40" name="x_snc_remotescan_scan_results" type="collection">
+        <element label="Best Practice URL" max_length="200" name="best_practice_url" type="string"/>
+        <element label="Category" max_length="250" name="category" type="string"/>
+        <element label="Finding" max_length="50" name="finding" type="string"/>
+        <element label="rating" max_length="50" name="rating" type="string"/>
+        <element label="Recommendation" max_length="250" name="recommendation" type="string"/>
+        <element label="ScanID" max_length="50" name="scanid" type="string"/>
+        <element label="Short Description" max_length="250" name="short_description" type="string"/>
+        <element label="source display" max_length="50" name="source_display" type="string"/>
+        <element label="Source link" max_length="250" name="source_link" type="string"/>
+        <element label="Source table" max_length="50" name="source_table" type="string"/>
+        <element label="Updated_by" max_length="100" name="updated_by" type="string"/>
+    </element>
+</database>

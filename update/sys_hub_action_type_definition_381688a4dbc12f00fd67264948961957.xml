@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
     <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
-        <access>package_private</access>
+        <access>public</access>
         <active>true</active>
         <annotation>Trigger a Scan action step</annotation>
         <category/>
@@ -9,7 +9,7 @@
         <description>Triggers a scan via the restAPI using the Scan Token and Scan Type past into the action.   Returns the standard values.</description>
         <internal_name>triggerscan</internal_name>
         <label_cache>[{"name":"{{action.scantoken}}","label":"action➛scanToken","type":"action","ref":""},{"name":"{{action.scantype}}","label":"action➛scanType","type":"action","ref":""},{"name":"{{step[ebb2068a-8aef-4925-a40f-724bbf22e2df].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[ebb2068a-8aef-4925-a40f-724bbf22e2df].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[ebb2068a-8aef-4925-a40f-724bbf22e2df].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[ebb2068a-8aef-4925-a40f-724bbf22e2df].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
-        <latest_snapshot>3dc88428dbc12f00fd67264948961963</latest_snapshot>
+        <latest_snapshot>0b9cac6edbcdef00fd6726494896195e</latest_snapshot>
         <master_snapshot>42c88428dbc12f00fd672649489619b7</master_snapshot>
         <name>TriggerScan</name>
         <outputs/>
@@ -19,14 +19,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-06 01:22:27</sys_created_on>
         <sys_id>381688a4dbc12f00fd67264948961957</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>TriggerScan</sys_name>
         <sys_package display_value="RemoteScan" source="x_snc_remotescan">78a58464dbc12f00fd672649489619b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="RemoteScan">78a58464dbc12f00fd672649489619b6</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_381688a4dbc12f00fd67264948961957</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-06 01:47:12</sys_updated_on>
+        <sys_updated_on>2018-10-12 09:19:48</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>

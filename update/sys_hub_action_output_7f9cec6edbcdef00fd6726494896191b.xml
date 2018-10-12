@@ -27,8 +27,8 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>responsebody</element>
-        <element_prototype display_value="Response Body" element="response_body" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a804c77347622200b4fad7527c9a7119</element_prototype>
+        <element>statuscode</element>
+        <element_prototype display_value="Status Code" element="status_code" name="var__m_sys_flow_step_definition_output_07a762fb47222200b4fad7527c9a7129">a053077347622200b4fad7527c9a716e</element_prototype>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -37,15 +37,15 @@
         <hint/>
         <internal_link/>
         <internal_type display_value="String">string</internal_type>
-        <label>responseBody</label>
+        <label>statusCode</label>
         <mandatory>false</mandatory>
         <max_length>8000</max_length>
-        <model display_value="TriggerScan">381688a4dbc12f00fd67264948961957</model>
-        <model_id>381688a4dbc12f00fd67264948961957</model_id>
-        <model_table>sys_hub_action_type_definition</model_table>
-        <name>var__m_sys_hub_action_output_381688a4dbc12f00fd67264948961957</name>
+        <model display_value="TriggerScan">42c88428dbc12f00fd672649489619b7</model>
+        <model_id>42c88428dbc12f00fd672649489619b7</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_42c88428dbc12f00fd672649489619b7</name>
         <next_element/>
-        <order>3</order>
+        <order>0</order>
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
@@ -61,16 +61,16 @@
         <staged>false</staged>
         <sys_class_name>sys_hub_action_output</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-10-06 01:47:11</sys_created_on>
-        <sys_id>cbbb8c68dbc12f00fd67264948961935</sys_id>
-        <sys_mod_count>11</sys_mod_count>
-        <sys_name>var__m_sys_hub_action_output_381688a4dbc12f00fd67264948961957</sys_name>
+        <sys_created_on>2018-10-12 09:18:43</sys_created_on>
+        <sys_id>7f9cec6edbcdef00fd6726494896191b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>var__m_sys_hub_action_output_42c88428dbc12f00fd672649489619b7</sys_name>
         <sys_package display_value="RemoteScan" source="x_snc_remotescan">78a58464dbc12f00fd672649489619b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="RemoteScan">78a58464dbc12f00fd672649489619b6</sys_scope>
-        <sys_update_name>sys_hub_action_output_cbbb8c68dbc12f00fd67264948961935</sys_update_name>
+        <sys_update_name>sys_hub_action_output_7f9cec6edbcdef00fd6726494896191b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-12 09:19:50</sys_updated_on>
+        <sys_updated_on>2018-10-12 09:18:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

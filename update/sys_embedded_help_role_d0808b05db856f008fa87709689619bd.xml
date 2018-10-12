@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_snc_remotescan.scan_results_user" name="x_snc_remotescan.scan_results_user">10808b05db856f008fa87709689619bb</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-08 04:13:55</sys_created_on>
+        <sys_id>d0808b05db856f008fa87709689619bd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>10808b05db856f008fa87709689619bb</sys_name>
+        <sys_package display_value="RemoteScan" source="x_snc_remotescan">78a58464dbc12f00fd672649489619b6</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="RemoteScan">78a58464dbc12f00fd672649489619b6</sys_scope>
+        <sys_update_name>sys_embedded_help_role_d0808b05db856f008fa87709689619bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-08 04:13:55</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>

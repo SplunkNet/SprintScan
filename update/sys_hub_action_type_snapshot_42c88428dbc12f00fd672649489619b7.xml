@@ -7,26 +7,76 @@
         <copied_from_name/>
         <description>Triggers a scan via the restAPI using the Scan Token and Scan Type past into the action.   Returns the standard values.</description>
         <internal_name>triggerscan</internal_name>
-        <label_cache>[{"name":"{{action.scantoken}}","label":"action➛scanToken","type":"action","ref":""},{"name":"{{action.scantype}}","label":"action➛scanType","type":"action","ref":""}]</label_cache>
+        <label_cache>[{"name":"{{action.scantoken}}","label":"action➛scanToken","type":"action","ref":""},{"name":"{{action.scantype}}","label":"action➛scanType","type":"action","ref":""},{"name":"{{step[ebb2068a-8aef-4925-a40f-724bbf22e2df].error_code}}","label":"step➛REST step➛Error Code","type":"step","ref":""},{"name":"{{step[ebb2068a-8aef-4925-a40f-724bbf22e2df].status_code}}","label":"step➛REST step➛Status Code","type":"step","ref":""},{"name":"{{step[ebb2068a-8aef-4925-a40f-724bbf22e2df].error_message}}","label":"step➛REST step➛Error Message","type":"step","ref":""},{"name":"{{step[ebb2068a-8aef-4925-a40f-724bbf22e2df].response_body}}","label":"step➛REST step➛Response Body","type":"step","ref":""}]</label_cache>
         <master>true</master>
         <name>TriggerScan</name>
+        <outputs/>
         <outputs/>
         <parent_action display_value="TriggerScan">381688a4dbc12f00fd67264948961957</parent_action>
         <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-10-06 01:34:17</sys_created_on>
         <sys_id>42c88428dbc12f00fd672649489619b7</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>TriggerScan</sys_name>
         <sys_package display_value="RemoteScan" source="x_snc_remotescan">78a58464dbc12f00fd672649489619b6</sys_package>
         <sys_policy/>
         <sys_scope display_value="RemoteScan">78a58464dbc12f00fd672649489619b6</sys_scope>
         <sys_update_name>sys_hub_action_type_snapshot_42c88428dbc12f00fd672649489619b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-10-06 01:34:17</sys_updated_on>
+        <sys_updated_on>2018-10-12 09:18:43</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=42c88428dbc12f00fd672649489619b7"/>
     <sys_variable_value action="delete_multiple" query="document_key=42c88428dbc12f00fd672649489619b7"/>
+    <sys_element_mapping action="delete_multiple" query="id=42c88428dbc12f00fd672649489619b7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errorcode</field>
+        <id>42c88428dbc12f00fd672649489619b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 09:18:43</sys_created_on>
+        <sys_id>80acec6edbcdef00fd67264948961948</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 09:18:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_42c88428dbc12f00fd672649489619b7</table>
+        <value>{{step[ebb2068a-8aef-4925-a40f-724bbf22e2df].error_code}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>errormessage</field>
+        <id>42c88428dbc12f00fd672649489619b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 09:18:43</sys_created_on>
+        <sys_id>48acec6edbcdef00fd67264948961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 09:18:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_42c88428dbc12f00fd672649489619b7</table>
+        <value>{{step[ebb2068a-8aef-4925-a40f-724bbf22e2df].error_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>responsebody</field>
+        <id>42c88428dbc12f00fd672649489619b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 09:18:43</sys_created_on>
+        <sys_id>ccacec6edbcdef00fd67264948961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 09:18:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_42c88428dbc12f00fd672649489619b7</table>
+        <value>{{step[ebb2068a-8aef-4925-a40f-724bbf22e2df].response_body}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>statuscode</field>
+        <id>42c88428dbc12f00fd672649489619b7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-10-12 09:18:43</sys_created_on>
+        <sys_id>0cacec6edbcdef00fd67264948961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-10-12 09:18:43</sys_updated_on>
+        <table>var__m_sys_hub_action_output_42c88428dbc12f00fd672649489619b7</table>
+        <value>{{step[ebb2068a-8aef-4925-a40f-724bbf22e2df].status_code}}</value>
+    </sys_element_mapping>
 </record_update>
